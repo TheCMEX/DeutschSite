@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="/static/css/stylesheet.css">
 </head>
 <body>
+<!-- Белое пространство -->
+
+<div class="white">
+</div>
+
 <!-- Navbar -->
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -48,10 +53,16 @@
     </div>
 </nav>
 
-<div class="first">
+
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="first">
     <div class="container-fluid phone">
         <div class="row">
-            <div class="col-xl-11">
+            <div class="col-xl"></div>
+            <div class="col-xl-9">
                 <h1 class="text-center">Borley Rectory (Essex, England)</h1>
                 <p>Umgeben von tiefen Wäldern befinden sich einige Kilometer südlich von Berlin die sagenumwobenen
                     Beelitz-Heilstätten, ein zwischen 1898 und 1930 errichtetes Sanatorium für unheilbar kranke
@@ -85,17 +96,17 @@
                     Shadow People wird oft berichtet.
                 </p>
             </div>
-            <!-- Это кнопка -->
-            <div class="col-xl-1">
-                <button type="button" class="btn w-100 h-100"><img src="/static/img/rightSide.png" alt="Next"></button>
-            </div>
+            <div class="col-xl"></div>
         </div>
     </div>
 </div>
-<div class="second">
+    </div>
+    <div class="carousel-item">
+      <div class="second">
     <div class="container-fluid phone">
         <div class="row">
-            <div class="col-xl-11">
+            <div class="col-xl"></div>
+            <div class="col-xl-9">
                 <h1 class="text-center">Дом священника в Борли (Эссекс, Англия)</h1>
                 <p>Дом приходского священника в Борли считается наиболее населенным привидениями домом во всей
                     Великобритании. Он был построен преподобным Генри Д. е. Буллом в 1863 году у реки Стоур, Эссекс.
@@ -125,13 +136,25 @@
                     за пределами комнат дома, и некоторые части дома были последовательно холоднее, чем другие.
                 </p>
             </div>
-            <!-- Это кнопка -->
-            <div class="col-xl-1">
-                <button type="button" class="btn w-100 h-100"><img src="/static/img/rightSide.png" alt="Next"></button>
-            </div>
+            <div class="col-xl"></div>
         </div>
     </div>
 </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -143,5 +166,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+<script src="/static/js/main.js"></script>
 </body>
 </html>
