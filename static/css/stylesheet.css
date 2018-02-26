@@ -1,0 +1,61 @@
+/*Добавил шрифт поинтереснее, если не нравится - можешь выкинуть. Не забудь закачать его себе на комп, он в папке fonts*/
+@font-face {
+    font-family: RalewayMedium; /* Гарнитура шрифта */
+    src: url(/static/fonts/Raleway-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+
+/*ЗДЕСЬ настройки текста, размер обязательно в vw, чтобы было адаптивно. Потом подгони под идеальный для вас размер*/
+p, h1, button{
+    font-size: 1.45vw;
+    font-family: RalewayMedium;
+    color: white;
+}
+h1{
+    font-size: 2vw;
+    padding-top: 1.5%;
+    padding-bottom: 0.5%;
+}
+
+/*Наша кнопка*/
+button{
+    margin-top: 7%;
+    background-color: rgba(0, 0, 0, .3);
+}
+button:hover{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/*Наши стрелочки*/
+img{
+    width: 100%;
+    margin-left: 10%;
+}
+/*ЭТО наше затемнение, здесь ничего не трогай, только если нужно будет потемнее сделать фон, измени .5 на побольше или наоборот меньше*/
+.phone{
+    background-color: rgba(0, 0, 0, .5);
+    padding-bottom: 500%;
+}
+
+/*Менюшка*/
+nav{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/*ЗДЕСЬ уже непосредственно настройки самих блоков, если что, можно будет для каждого блока отдельно свои настройки шрифта сделать*/
+.first{
+    background: url("/static/img/testPhoto.jpeg") no-repeat center;
+    background-size: cover;
+    /*padding-bottom: 14%;*/
+    width: 100vw;
+    height: 100vh;
+}
+.second{
+    background: url("/static/img/test2.jpg") no-repeat center;
+    background-size: cover;
+    padding-bottom: 14%;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
